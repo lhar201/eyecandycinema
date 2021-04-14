@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+            
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    
+        <title>Eye Candy Cinema</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="images/icon.png"/>
+    <script src="js/JQuery3.3.1.js"></script>
+    <script src="js/lightslider.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    </head>
+
+<body>
+    <nav>  
+        <a href="index.html" class="logo">
+            <p> <strong> <i>Eye Candy Cinema</i></strong> </p> 
+       </a>   
+
+       <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="screenings.html">Screenings</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="search">
+            <input type="text" placeholder="Search for movie"/>
+            <i class="fas fa-search"></i>
+        </div>
+    </nav>
+    
+        <div class="movie-heading">
+            <h2><strong><u>Movies</u></strong></h2>
+        </div>
+    <section id="main2">
+    
+        <div class="modal " id="trailer">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+                  <img src='data:image/x-png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAAACXBIWXMAAAsTAAALEwEAmpwYAAABgElEQVQ4y72TPS9DYRiGr/dg5E+0/Q8MRBgkJho1iY+FjaHMIh2QMJgQCX/AgoVExEmbaGKxSHxUWqOxWqU4vQ3nnPZoNSae6bwn9/Xc7/PkfuHfSyHFZSuvvGzFFfpNbMtRsBzZTSEN14lrUPRnue61U8e8aFmPkhoQheRca0wxreuzKn/WgmKaUEaSwq7S8ohdrEvKQJpNKgCUWCEHlMgB7LlC4/bnDkvscQxAJ3OUSJADDDP0udqIyUArAENYYJjknTMgTRtPbl+mfDkMseY72PR4s1Rd+N4dIGW6fSBPh/+3whbn3vckg8HNFE17behqeSMCcIPTsH4XuPKPr6wGgDTb3sZqKhc49DxZ5Na7+wAA52zUXA7q1lokQRYwTNOP2OUEgC5maamu1QIwD6RgnywA4/QDhil6AbhwwZTJBKMRlvOmJY3qNJCkinYU06o+JClSn6aoVFKyIahHKkvSyE95japZjTR7EeEGCynp57Q5NK+kCiooqflfxH9SX7sUOLwGLpqpAAAAAElFTkSuQmCC' alt='Close' />
+                </a>
+                <div class="scale-media" id="trailer-video-container">
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="container">
+              <div class="row row-centered">
+                
+      <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
+          <div class="thumbnail">
+              <img class="img-responsive movie-img" src="images/m-1.jpg" data-trailer-youtube-id="YoHD9XEInc0" allow=fullscreen  data-toggle="modal" data-target="#trailer">
+              <button  class="btn btn-sm btn-block movie-btn" data-toggle="popover" data-placement="top auto" title="Inception" data-content=" <p> A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O. </p>">Inception (2010)
+                PG-13 <br> | 2h 28min | Action, Thriller, <br> Sci-Fi | 16 July 2010 (USA) <br>
+                Director: Christopher Nolan
+            </button>
+             
+          </div>
+      </div> 
+      
+      <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
+          <div class="thumbnail">
+              <img class="img-responsive movie-img" src="images/m-2.jpg"  data-trailer-youtube-id="5xH0HfJHsaY" data-toggle="modal" data-target="#trailer">
+              <button class="btn btn-sm btn-block movie-btn" data-toggle="popover" data-placement="top auto" title="Parasite" data-content="<p>Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.</p>">Parasite (2019)  Gisaengchung  <br>
+                R | 2h 12min | <br> Thriller |  8 November 2019 (USA) <br> Director: Bong Joon Ho</button>
+          </div>
+      </div>
+      
+      <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
+          <div class="thumbnail">
+              <img class="img-responsive movie-img" src="images/m-3.jpg"  data-trailer-youtube-id="odM92ap8_c0" data-toggle="modal" data-target="#trailer">
+              <button class="btn btn-sm btn-block movie-btn" data-toggle="popover" data-placement="top auto" title="Godzilla Vs Kong" data-content="<p>The epic next chapter in the cinematic Monsterverse pits two of the greatest icons in motion picture history against one another - the fearsome Godzilla and the mighty Kong - with humanity caught in the balance.</p>">Godzilla vs. Kong (2021)
+                PG-13 <br>| 1h 53min | Sci-Fi, Thriller | <br> 31 March 2021 (USA) <br> Director: Adam Wingard</button>
+          </div>
+      </div>
+      
+      <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
+          <div class="thumbnail">
+              <img class="img-responsive movie-img" src="images/m-4.jpg"  data-trailer-youtube-id="Oo_c5lu0W0k" data-toggle="modal" data-target="#trailer">
+              <button class="btn btn-sm btn-block movie-btn" data-toggle="popover" data-placement="top auto" title="The Grudge" data-content="<p>A house is cursed by a vengeful ghost that dooms those who enter it with a violent death.</p>">The Grudge (2020)
+                <br>R | 1h 34min | <br> Horror, Thriller | 3 January 2020 (USA) <br> Director: Nicolas Pesce </button>
+          </div>
+      </div>
+      
+      <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
+          <div class="thumbnail">
+              <img class="img-responsive movie-img" src="images/m-5.jpg"  data-trailer-youtube-id="WO_FJdiY9dA" data-toggle="modal" data-target="#trailer">
+              <button class="btn btn-sm btn-block movie-btn" data-toggle="popover" data-placement="top auto" title="The Invisible Man" data-content="<p>When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see.</p>">The Invisible Man (2020)
+                R |<br> 2h 4min | Thriller |28 February 2020 <br>Director: Leigh Whannell</button>
+          </div>
+      </div>
+      
+      <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
+          <div class="thumbnail">
+              <img class="img-responsive movie-img" src="images/m-7.jpg"  data-trailer-youtube-id="CDf_EnIhojk" data-toggle="modal" data-target="#trailer">
+              <button class="btn btn-sm btn-block movie-btn" data-toggle="popover" data-placement="top auto" title="Doctor Sleep" data-content="<p>Years following the events of The Shining (1980), a now-adult Dan Torrance must protect a young girl with similar powers from a cult known as The True Knot, who prey on children with powers to remain immortal.</p>">Doctor Sleep (2019)
+                R | 2h 32min <br>| Horror | 8 November 2019 <br>Director: Mike Flanagan (USA) </button>
+          </div>
+      </div>
+
+      <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
+        <div class="thumbnail">
+            <img class="img-responsive movie-img" src="images/m-8.jpg"  data-trailer-youtube-id="H6MLJG0RdDE" data-toggle="modal" data-target="#trailer">
+            <button class="btn btn-sm btn-block movie-btn" data-toggle="popover" data-placement="top auto" title="Crawl" data-content="<p>A young woman, while attempting to save her father during a category 5 hurricane, finds herself trapped in a flooding house and must fight for her life against alligators.</p>">Crawl (2019)
+                R | 1h 27min |<br> Thriller | 12 July 2019 (USA) <br> Director: Alexandre Aja </button>
+        </div>
+    </div>
+    
+
+    <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
+        <div class="thumbnail">
+            <img class="img-responsive movie-img" src="images/m-9.jpg"  data-trailer-youtube-id="XEMwSdne6UE" data-toggle="modal" data-target="#trailer">
+            <button class="btn btn-sm btn-block movie-btn" data-toggle="popover" data-placement="top auto" title="A Quite Place Part II" data-content="<p>Following the events at home, the Abbott family now face the terrors of the outside world. Forced to venture into the unknown, they realize the creatures that hunt by sound are not the only threats lurking beyond the sand path.</p>">A Quiet Place Part II (2020)
+                <br>PG-13 | 1h 37min | Horror | <br> Director: John Krasinski  </button>
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
+        <div class="thumbnail">
+            <img class="img-responsive movie-img" src="images/dontbreathe.jpg"  data-trailer-youtube-id="76yBTNDB6vU" data-toggle="modal" data-target="#trailer">
+            <button class="btn btn-sm btn-block movie-btn" data-toggle="popover" data-placement="top auto" title="Don't Breathe" data-content="<p>Hoping to walk away with a massive fortune, a trio of thieves break into the house of a blind man who isn't as helpless as he seems.</p>">Don't Breathe (2016)
+                R |1h 28min <br> | Horror | 26 August 2016 (USA) <br>Director: Fede Alvarez (2020)
+                </button>
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
+        <div class="thumbnail">
+            <img class="img-responsive movie-img" src="images/knight.jpg"  data-trailer-youtube-id="EXeTwQWrcwY" data-toggle="modal" data-target="#trailer">
+            <button class="btn btn-sm btn-block movie-btn" data-toggle="popover" data-placement="top auto" title="The Dark Knight" data-content="<p>When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.</p>">The Dark Knight (2008)
+                PG-13 <br> | 2h 32min | Thriller, Crime | <br>Director: Christopher Nolan
+                </button>
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
+        <div class="thumbnail">
+            <img class="img-responsive movie-img" src="images/freddy.jpg"  data-trailer-youtube-id="nGQP6PIXzyc" data-toggle="modal" data-target="#trailer">
+            <button class="btn btn-sm btn-block movie-btn" data-toggle="popover" data-placement="top auto" title="Freddy's Dead: The Final Nightmare" data-content="<p>Dream-haunting Freddy Krueger returns once again to prowl the nightmares of Springwood's last surviving teenager, and of a woman whose personal connection to Krueger may mean his doom.</p>">Fright Night (1985)
+                R | 1h 46min <br>| Fantasy, Horror, Thriller | <br> Director: Rachel Talalay
+                </button>
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-4 col-xs-6 col-centered movie-tile">
+        <div class="thumbnail">
+            <img class="img-responsive movie-img" src="images/fright.jpg"  data-trailer-youtube-id="TGQ1yMnKjUY" data-toggle="modal" data-target="#trailer">
+            <button class="btn btn-sm btn-block movie-btn" data-toggle="popover" data-placement="top auto" title="Fright Night" data-content="<p>A teenager discovers that the newcomer in his neighborhood is a vampire, so he turns to an actor in a television horror show for help dealing with the undead.</p>">Fright Night (1985)
+                R | 1h 46min <br>| Horror, Thriller | <br> Director: Tom Holland 
+                </button>
+        </div>
+    </div>
+    
+    
+      
+              </div>
+          </div>
+        </body>
+      </html>
+
+    </section>
+
+
+
+
+
+
+
+
+     
+
+     
+
+      <script type="text/javascript" charset="utf-8">
+        // Pause the video when the modal is closed
+        $(document).on('click', '.hanging-close, .modal-backdrop, .modal', function (event) {
+            // Remove the src so the player itself gets removed, as this is the only
+            // reliable way to ensure the video stops playing in IE
+            $("#trailer-video-container").empty();
+        });
+        // Start playing the video whenever the trailer modal is opened
+        $(document).on('click', '.movie-img', function (event) {
+            var trailerYouTubeId = $(this).attr('data-trailer-youtube-id')
+            var sourceUrl = 'http://www.youtube.com/embed/' + trailerYouTubeId + '?autoplay=1&html5=1';
+            $("#trailer-video-container").empty().append($("<iframe></iframe>", {
+              'id': 'trailer-video',
+              'type': 'text-html',
+              'src': sourceUrl,
+              'frameborder': 0
+            }));
+        });
+        // Animate in the movies when the page loads
+        $(document).ready(function () {
+          var deferred = $.Deferred();
+          $(".movie-btn").hide();
+          var movie_tile_length = $('.movie-tile').length
+          i = 0;
+          $('.movie-tile').hide().first().show("fast", function showNext() {
+            $(this).next("div").show("fast", showNext);
+            i++;
+            if(i == movie_tile_length)
+                $(".movie-btn").show('slow');
+            console.log(i);
+          });
+              
+          //is_touch_device see -> http://stackoverflow.com/a/15691248/1815624
+          var is_touch_device = ("ontouchstart" in window) || window.DocumentTouch && document instanceof DocumentTouch;
+          $('[data-toggle="popover"]').popover({ html : true, trigger: is_touch_device ? "focus" : "hover focus"});
+          
+        });
+        /**
+         * Vertically center Bootstrap 3 modals
+         * see -> https://gist.github.com/CrandellWS/8bcd88c6eca4a8260e16
+         */
+        $(function() {
+            function reposition() {
+                var modal = $(this),
+                    dialog = modal.find('.modal-dialog');
+                modal.css('display', 'block');
+                dialog.css("margin-top", Math.max(0, ($(window).height() - dialog.height()) / 2));
+            }
+            $('.modal').on('show.bs.modal', reposition);
+            $(window).on('resize', function() {
+                $('.modal:visible').each(reposition);
+            });
+        });
+    </script>
+
+
+
+
+    <script>
+
+        $(document).ready(function() {
+        $('#autoWidth,#autoWidth2').lightSlider({
+            autoWidth:true,
+            loop:true,
+            onSliderLoad: function() {
+                $('#autoWidth,#autoWidth2').removeClass('cS-hidden');
+            } 
+        });  
+      });
+
+    </script>
+
+      
+        </body>
+    </html>

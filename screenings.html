@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Eye Candy Cinema</title>
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        
+        <style>
+            body{
+                font-family:poppins;
+            }
+        </style>
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/lightslider.css">
+
+        <script src="js/JQuery3.3.1.js"></script>
+        <script src="js/lightslider.js"></script>
+        
+
+        <link rel="shortcut icon" href="images/icon.png"/>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    </head>
+    
+<div class="screen-body">
+<body>
+    <nav>  
+       <a href="index.html" class="logo">
+            <p> <strong> <i>Eye Candy Cinema</i></strong> </p> 
+       </a>   
+
+       <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="movies.html">Movies</a></li>
+            <li><a href="screenings.html">Screenings</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <div class="search">
+            <input type="text" placeholder="Search for movie"/>
+            <i class="fas fa-search"></i>
+        </div>
+    </nav>
+
+    <section>
+        <!--for demo wrap-->
+        <h1>Movie Screenings</h1>
+        <div class="tbl-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th>Movie</th>
+                <th>Time</th>
+                <th>Date</th>
+                <th>Cinema</th>
+                <th>Price</th>
+                <th>Link</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div class="tbl-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              <tr>
+                <td>Inception</td>
+                <td>1:30 PM</td>
+                <td>27/04/21</td>
+                <td>Wellington</td>
+                <td>$10.00</td>
+                <td> <a href="https://www.imdb.com/title/tt1375666/" target="blank">Link&nbsp;</a></td>
+                </tr>
+        
+               
+            </tbody>
+          </table>
+        </div>
+      </section>
+      
+      
+      
+      
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</div>
+
+    </html>
+
+
+
+<script>
+    $(window).on("load resize ", function() {
+        var scrollWidth = $('.tbl-content').width() - $('.tbl-content table').width();
+        $('.tbl-header').css({'padding-right':scrollWidth});
+      }).resize();
+
+</script>
